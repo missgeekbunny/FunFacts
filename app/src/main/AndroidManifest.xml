@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest package="com.missgeekbunny.funfacts"
+          android:versionCode="3"
+          android:versionName="2.1"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
@@ -11,7 +13,6 @@
         <activity android:name=".FunFactsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
