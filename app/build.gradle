@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
 
     defaultConfig {
-        applicationId "com.missgeekbunny.funfacts"
-        minSdkVersion 15
-        targetSdkVersion 23
+        applicationId "codes.missy.funfacts"
+        minSdkVersion 17
+        targetSdkVersion 25
         versionCode 3
-        versionName "2.1"
+        versionName "3.0"
     }
     buildTypes {
         release {

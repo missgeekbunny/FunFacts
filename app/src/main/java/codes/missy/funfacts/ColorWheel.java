@@ -1,4 +1,4 @@
-package com.missgeekbunny.funfacts;
+package codes.missy.funfacts;
 
 import android.graphics.Color;
 

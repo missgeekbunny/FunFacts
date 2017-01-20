@@ -1,4 +1,4 @@
-package com.missgeekbunny.funfacts;
+package codes.missy.funfacts;
 
 import java.util.Random;
 
@@ -212,7 +212,7 @@ public class FactBook {
 	};
 	// Methods - Actions the object can take.
 	public String getFact() {
-		String fact = "";
+		String fact;
 		// Randomly select a fact
 		Random randomGenerator = new Random();
 		int randomNumber = randomGenerator.nextInt(mFacts.length);
