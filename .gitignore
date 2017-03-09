@@ -10,3 +10,7 @@
 app/app-release.apk
 
 *.apk
+
+.idea/misc.xml
+
+app/app-release.apk
